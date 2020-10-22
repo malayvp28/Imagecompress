@@ -1,0 +1,297 @@
+body{
+	font-family:sans;
+	margin:0px;
+	padding:0px;
+}
+.one{
+	height:100%;
+	background-color:black;
+	width:4%;
+	float:left;
+	border-right:8px solid rgb(30,30,30);
+}
+.two{
+	height:100%;
+	width:74%;
+	background-color:black;
+	float:left;
+}
+.three{
+	height:100%;
+	width:20%;
+	float:left;
+	background-color:black;
+	border-left:8px solid rgb(30,30,30);
+}
+.first{
+	margin-top:0px;
+	background-color:black;
+	height:620px;
+	margin-top:50px;
+	width:100%;
+}
+.second{
+	height:80px;
+	background-color:black;
+	width:100%;
+	margin-top:0px;
+	border-top:8px solid rgb(30,30,30);
+}
+ul{
+	text-align:center;
+	list-style:none;
+	margin-left:-35px;
+}
+li{
+	font-size:25px;
+	color:white;
+	margin-top:15px;
+}
+.qt{
+	margin-top:40%;
+}
+.dropdown-content {
+  display: none;
+  color:black;
+  position: absolute;
+  background-color: #f9f9f9;
+  height:40px;
+  width:130px;
+  box-shadow: 0px 8px 16px 0px rgb(0,0,0);
+  padding: 1px 1px;
+  z-index: 1;
+  margin-left:40px;
+  margin-top:-10px;
+  border-radius:10px;
+  text-align:center;
+}
+.f{
+	  position: relative;
+  display: inline-block;
+}
+.f1{
+	  position: relative;
+  display: inline-block;
+}
+.f:hover{
+	font-size:120%;
+}
+.f:hover .dropdown-content {
+  display: block;
+}
+.f1:hover .dropdown-content {
+  display: block;
+}
+.slide{
+	margin-top:5%;
+	margin-left:0%;
+	height:10%;
+	width:100%;
+   
+}
+.slider {
+	float:left;
+	-webkit-appearance: none;
+	width: 60%;
+	height: 50%;
+	background: rgb(100,100,100);
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+}
+.slider:hover {
+	opacity: 1;
+}
+body{
+	font-family:sans;
+}
+.slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 25px;	
+	height: 25px;
+	background: black;
+	cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+	width: 10px;
+	height: 50px;
+	background: #00386B;
+	cursor: pointer;
+}
+.size1{
+	color:white;
+	font-family:sans;
+	margin-left:0%;
+	padding-left:2%
+	font-size:20px;
+	background-color:rgb(50,50,50);
+	height:30px;
+	width:200px;
+	margin-top:10%;
+}
+.size2{
+	color:white;
+	font-family:sans;
+margin-left:0%;
+padding-left:2%;
+	font-size:20px;
+	background-color:rgb(50,50,50);
+	height:30px;
+	width:200px;
+}
+.im1{
+	font-family:sans;
+	margin-top:5%;
+	margin-left:30%;
+	color:white;
+	font-size:150%;
+	height:10%;
+	width:70%;
+	margin-right:20%;
+}
+.im2{
+	font-family:sans;
+	margin-top:5%;
+	margin-left:30%;
+	color:white;
+	font-size:150%;
+	height:60%;
+	width:70%;
+	
+	
+}
+.but1{
+	font-family:sans;
+	height:45px;
+	margin-top:-10px;
+	margin-left:540px;
+	width:200px;
+	background-color:rgb(50,50,50);
+	color:white;
+}
+.but11{
+	font-family:sans;
+	font-size:30px;
+	margin-top:-3px;
+}
+.but2{
+	font-family:sans;
+	margin-left:0px;
+	margin-top:7px;
+	height:36px;
+	width:170px;
+	background-color:rgb(50,50,50);
+	color:white;
+	border:0px solid rgb(30,30,30);
+}
+
+.but11{
+	font-family:sans;
+	font-size:30px;
+	margin-top:-3px;
+}
+.but3{
+	font-family:sans;
+	margin-left:900px;
+	margin-top:-35px;
+	height:36px;
+	width:170px;
+	background-color:rgb(50,50,50);
+	color:white;
+	border:0px solid rgb(30,30,30);
+}
+.but11{
+	font-family:sans;
+	font-size:30px;
+	margin-top:-3px;
+}
+.but21{
+	font-family:sans;
+	font-size:20px;
+	margin-top:-3px;
+	color:white;
+}
+.but31{
+	font-family:sans;
+	font-size:20px;
+	margin-top:2px;
+	color:white;
+}
+.b2{
+	float:left;
+	width:250px;
+	height:35px;
+	color:white;
+	font-size:20px;
+	margin-top:8px;
+	margin-left:0px;
+	text-align:right;
+	margin-right:20px;
+}
+.bo{
+	border:1px solid black;
+	position: absolute;
+	left:14%;
+	margin-top:-500px;
+	background-color:white;
+	padding:20px;
+}
+.bo1{
+	float:left;
+	border:1px solid black;
+	margin-left:%;
+	margin-top:0px;
+	width:40%;
+	height:100%;
+}
+.bkc2{
+	float:left;
+	border:1px solid black;
+	margin-left:5%;
+	margin-top:0px;
+	width:40%;
+	height:100%;
+	
+}
+.c{
+	margin-top:200px;
+	padding:10px;
+	margin-top:-500px;
+	background-color:white;
+}
+.c1{
+	background-color:white;
+}
+.cur{
+	cursor:pointer;
+}
+.bk{
+	width:100%;
+	height:400px;
+	filter:blur(5px);
+	margin-top:300px;
+	position:relative;
+}
+.bkc5{
+	background-color:black;
+	color:white;
+	font-size:20px;
+	margin-top:5px;}
+.bk6{
+	background: #EDC7B7;
+	height:30px;
+	font-size:20px;
+	margin-top:10px;	
+	float:left;
+	width:7%;
+	height:50%;
+}
+.img123_div{
+	height:50%;
+	width:100%;
+	background-color:black;
+	margin-left:0px;
+}

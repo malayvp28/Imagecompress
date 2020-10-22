@@ -1,0 +1,132 @@
+<html lang="en">
+<head>
+	<title>Image Compression</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<link href="https://www.fontspace.com/trash-fort-font-f43635" rel="stylesheet"></link>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+	<link rel="stylesheet" href="css/comp_prc.css">
+</head>
+	<body ng-controller="demoController">
+	<div>
+	<nav class="navbar navbar-expand-lg navbar-light  fixed-top" style="background-color:rgb(40,40,40);color:white" >
+  <div class="container" style="height:30px;font-size:70%;">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto" style="font-size:50%;"> 
+        <li class="nav-item active">
+          <a class="nav-link" href="file:///C:/Users/Pruthvi/Desktop/home/index.html#" style="font-size:70%;color:white">Home
+                <span class="sr-only" style="font-size:70%;">(current)</span>
+              </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/Pruthvi/Desktop/home/crop/crop.html" style="font-size:70%;color:white">Crop Image</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="font-size:70%;color:rgb(100,100,100)">Compress Image</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/Pruthvi/Desktop/home/editor/editor.html" style="font-size:70%;color:white">Edit Image</a>
+        </li>
+	
+      </ul>
+    </div>
+  </div>
+</nav>
+		<div class="first">
+			<div class="one">
+			<ul>
+				<li style="border-bottom:8px solid rgb(30,30,30);">
+				<div class="f">
+				<button onclick="home()" style="display:none" id="b1"></button>
+					<label for="b1"><i class="fa fa-home" style="cursor:pointer; font-size:80%; color:white;"></label></i>
+					
+					<div class="dropdown-content">
+						<p style="margin-top:5px;font-size:20px;">TOGGLE HOME</p>
+						
+					</div>
+				</div>
+			<div class="f1">
+			
+					
+						<input type="file" style="color:white;background-color:transparent;display:none;" onchange="showPreview()"id="upload-file">
+					<label for="upload-file"><i class="fa fa-upload" style="cursor:pointer; font-size:80%; color:white;"></i></label>
+					
+					<div class="dropdown-content">
+						<p style="margin-top:5px;font-size:15px;">UPLOAD IMAGE</p>
+						
+					</div>
+				</div>
+				</li>
+			</ul>
+			</div>
+			<div class="two">
+			
+			<div class="slide" style="visibility:hidden" id="div3">
+				<p class="b2">
+					Compression Level:
+				</p>
+				<input type="range" min="0" max="88" step="1"  value="44" onchange="b()" onload="b()" class="slider" style="margin-top:10px;margin-bottom:20px;" id="abs" >
+				<div class="bk6">
+					<label id="l4" style="margin-left:20px;">50%</label>
+				</div>
+			</div>
+			<div class="img123_div  d-flex justify-content-center align-items-center">
+		.   <div color="white" style="border:2px dashed rgb(100,100,100);height:100%;width:50%;border-radius:2%;" color="white" id="div">
+			
+			<input type="file" style="color:white;background-color:transparent;display:none;" onchange="showPreview()"id="upload-file">
+			<label for="upload-file" style="color:rgb(200,200,200);font-size:100px;margin-left:40%;margin-top:15%;" >
+			<i class="fas fa-upload" style="cursor:pointer;"></i></label>
+            <h4 style="color:white;margin-left:35%">UPLOAD IMAGE</h4>
+			</div>
+				<div class="bo1" style="display:none" id="div1">
+					<img alt="" src="img.png" width="100%" height="100%" id="img" style="object-fit: scale-down">
+					<div class="im1">ORIGNAL IMAGE</div>
+				</div>
+				<div class="bkc2" style="display:none" id="div2">
+					<img alt="" src="i_not.jpeg" width="100%" height="100%" id="img2" style="object-fit: scale-down">
+					<div class="im2">COMPRESS IMAGE
+				<label class="size1" id="l2">&nbsp;&nbsp;Input Size: NA</label>
+				<label class="size2" id="l3">Output Size: NA</label>
+				</div>
+				</div>
+			</div>
+			
+				
+				
+				
+			</div>
+			<div class="three">
+				<img src="qoute.jpeg" height="70%" width="90%" class="qt" ></img>
+			</div>
+		</div>
+		<div class="second">
+				<button class="but3" style="display:none;">
+					<input type="file" name="demoImage" style=""onchange="showPreview()" id="upload-file"/>
+					<label for="upload-file" class="b label1 cur but31" style="margin-left:8px;">ADD IMAGE</label>
+				</button>
+				<button type="button" class="b1 but21 but2" onclick="a1()" id="download1" style="margin-left:60%;margin-top:1%">
+					COMPRESS
+				</button>
+				<button class="but2" >
+					<i class="fa fa-download"></i>
+					<a  href="" id="download" class="b1 but21" download  style="margin-left:8px;text-decoration:none">DOWNLOAD</a>
+				</button>
+		</div>
+		</div>
+	<script type="text/javascript" src="JavaScript/angular.min.js"></script>
+	<script type="text/javascript" src="JavaScript/JIC.js"></script>
+	<script type="text/javascript" src="JavaScript/custom.js"></script>
+</body>
+</html>
